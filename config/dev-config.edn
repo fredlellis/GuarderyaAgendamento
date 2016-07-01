@@ -1,0 +1,8 @@
+;;no caso de banco dev
+{:datomic-uri "datomic:dev://localhost:4334/formiguinhas"}
+
+;;No caso de Oracle
+;{:datomic-uri "datomic:sql://formiguinhas?jdbc:oracle:thin:datomic/D48NlgvyD0uU@//oracle-developer.c7zsfqeim8gh.us-east-1.rds.amazonaws.com:1521/proxy"}
+
+;;;;No caso de Dynamo-DB
+;;{:datomic-uri "datomic:ddb://us-east-1/datomic-homolog/formiguinhas-db?aws_access_key_id=AKIAJWHELSN7PQZI3ACA&aws_secret_key=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"}
